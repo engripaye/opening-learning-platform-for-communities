@@ -1,4 +1,4 @@
-package dev.engripaye.opening_learning_platform_for_communities.UserRepository;
+package dev.engripaye.opening_learning_platform_for_communities.repository;
 
 import dev.engripaye.opening_learning_platform_for_communities.model.Course;
 import org.springframework.data.mongodb.repository.MongoRepository;
