@@ -17,6 +17,11 @@ public class Course {
     private String createdByUserId;
     private Instant createdAt = Instant.now();
 
+    public enum Visibility {
+        PUBLIC,
+        RESTRICTED
+    }
+
     // no args
     public Course(){
 
