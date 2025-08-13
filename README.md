@@ -4,11 +4,11 @@
 
 > **Empowering underserved communities with free, accessible, and quality learning resources.**
 
-<img width="1536" height="1024" alt="Empowering Learning for All Communities" src="https://github.com/user-attachments/assets/2b05b501-f7b1-4676-82fe-33a299af179d" />
-
 ![Banner](https://via.placeholder.com/1200x300.png?text=Open+Learning+Platform+for+Communities)
 
 ---
+
+<img width="1536" height="1024" alt="Empowering Learning for All Communities" src="https://github.com/user-attachments/assets/2b05b501-f7b1-4676-82fe-33a299af179d" />
 
 ## 📖 **Overview**
 
