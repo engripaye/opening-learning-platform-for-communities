@@ -94,6 +94,7 @@ spring:
     url: jdbc:mysql://localhost:3306/open_learning
     username: root
     password: yourpassword
+
   security:
     oauth2:
       client:
@@ -101,6 +102,7 @@ spring:
           google:
             client-id: "YOUR_CLIENT_ID"
             client-secret: "YOUR_CLIENT_SECRET"
+
 ```
 
 ---
