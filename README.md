@@ -99,8 +99,8 @@ spring:
       client:
         registration:
           google:
-            client-id: YOUR_CLIENT_ID
-            client-secret: YOUR_CLIENT_SECRET
+            client-id: "YOUR_CLIENT_ID"
+            client-secret: "YOUR_CLIENT_SECRET"
 ```
 
 ---
