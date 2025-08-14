@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: opening-learning-platform-for-communities
+  data:
+    mongodb:
+      uri: ${MONGO_URI:mongodb://localhost:27017/learnaccess}
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: #not available
+            client-secret: #not available
+            scope:
+              - openid
+              - profile
+              - email
+        provider:
+          google:
+            issuer-uri: https://accounts.google.com
+
+
+server:
+  port: 8081
