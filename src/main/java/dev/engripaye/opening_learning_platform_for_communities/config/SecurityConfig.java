@@ -1,6 +1,5 @@
 package dev.engripaye.opening_learning_platform_for_communities.config;
 
-import dev.engripaye.opening_learning_platform_for_communities.model.User;
 import dev.engripaye.opening_learning_platform_for_communities.service.UserService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
