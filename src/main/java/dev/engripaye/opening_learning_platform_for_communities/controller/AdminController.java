@@ -15,11 +15,13 @@ public class AdminController {
     private  final UserService userService;
 
     public AdminController(UserService userService) {
+
         this.userService = userService;
     }
 
     @PostMapping("/promote/{userId}")
     public void promoteToTeacher(@PathVariable String userId){
         userService.promoteToTeacher(userId);
+
     }
 }
