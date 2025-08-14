@@ -1,0 +1,27 @@
+version: "3.8"
+services:
+  mongo:
+    image: mongo:6
+    container_name: learnaccess-mongo
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: rootpassword
+    volumes:
+      - learnaccess-mongo-data:/data/db
+
+  app:
+    build: .
+    container_name: learnaccess-app
+    ports:
+      - "8081:8081"
+    depends_on:
+      - mongo
+    environment:
+      MONGO_URI: mongodb://mongo:27017/learnaccess
+      GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID}
+      GOOGLE_CLIENT_SECRET: ${GOOGLE_CLIENT_SECRET}
+
+volumes:
+  learnaccess-mongo-data:
